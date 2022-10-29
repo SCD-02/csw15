@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin:0px;
+    padding:0px;
+    
+    font-size:20px;
+    text-align:center;
+}
+h1{
+    margin: 0;
+}
+p{
+    margin:0px;
+    padding:2px;
+    font-size: 25px;
+}
+button{
+    border-radius:4px;
+    background-color: #c8cae3;
+    width:50px;
+    cursor:pointer;
+}
+ul{
+    margin:5px;
+    width:150px;
+    margin:auto;
+    text-align:left;
+}
+img{
+    width:50px;
+}
+.container{
+    display:inline-block;
+    border:2px solid black;
+    background-color: rgb(186, 227, 243);
+    
+}
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164231/672-768x591.png" alt="logo">
+        <h1 class="heading">Sourav Chandra Dey</h1>
+        <p><em>Cuisines I like</em></p>
+        <ul>
+	        <li>Indian</li>
+	        <li>Chinese</li>
+	        <li>Italian</li>
+	        <li>French</li>
+            <li>Mexican</li>
+        </ul>
+        <label>
+            <input type="checkbox" value="" checked>Subscribe to Post
+        </label>
+        <div>Like my site?
+            <button class="yes" id="yes">Yes</button>
+	        <button class="no">No</button>
+        </div>
+    </div>
+    <button class="btn">Click to appear boxes</button>
+    <div class="box" id="1">1</div>
+    <div class="box" id="2">2</div>
+    <div class="box" id="3">3</div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+        crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
